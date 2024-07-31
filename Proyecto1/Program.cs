@@ -1,8 +1,8 @@
-﻿public class Program
+public class Program
 {
     public static void Main()
     {
-        // Prueba de clase Persona y Estudiante
+
         Persona persona = new Persona("Gabriel Perez", 30, "Santo Domingo");
         persona.MostrarInformacion();
         Console.WriteLine($"Edad en años: {persona.CalcularEdadEnAnios()}");
@@ -10,7 +10,7 @@
         Estudiante estudiante = new Estudiante("Juana Lopez", 20, "Santiago", "Ingeniería", "2023-1234");
         estudiante.MostrarInformacionCompleta();
 
-        // Prueba de clases Figura y sus derivadas
+
         Rectangulo rectangulo = new Rectangulo(5, 10);
         Circulo circulo = new Circulo(7);
         Triangulo triangulo = new Triangulo(6, 8);
